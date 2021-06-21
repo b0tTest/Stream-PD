@@ -13,7 +13,7 @@ mega = Mega()
 m = mega.login()
 #from flask import request
 
-client = TelegramClient('anfghohn',1416135,"2aae0d7ca32b01970b2c6770a4c0cf8e").start(bot_token="1609758550:AAEvT8Go8IjPMjz2yr8krUzqqdER8QBghGs")
+client = TelegramClient('anfghohn',1416135,"2aae0d7ca32b01970b2c6770a4c0cf8e").start(bot_token="1836449374:AAEYqw9TluwS5UIiMt28rJxH-Iakjvmrstk")
 
 @client.on(events.NewMessage(pattern='/diskusage'))
 async def handler(event):
@@ -89,7 +89,7 @@ async def handler(event):
     print(chat)
     dw = await event.get_reply_message()
     links =event.text.split(" ")[1]
-    await client.send_message(chat,"🌠 downloading 🌠")
+    await client.send_message(chat,"🌠 Downloading 🌠")
     ss=await dw.download_media(links)
     shutil.move(f"/app/{links}",f"/app/templates/download/{links}")
     await client.send_message(chat,f"https://asulinkgen.herokuapp.com/files/{links}")
