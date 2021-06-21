@@ -50,7 +50,7 @@ async def handler(event):
     markup  = client.build_reply_markup(Button.url("📀 PDisk 📀",f"http://m.pdisk.net/share-video?videoid={z}"))
     await client.send_message(chat, "link will working depends on size it takes half or more ... ", buttons=markup)
             
-@client.on(events.NewMessage(pattern='/telepdisk'))
+@client.on(events.NewMessage(pattern='/pdisk'))
 async def handler(event):
    # 
     chat = await event.get_chat()
