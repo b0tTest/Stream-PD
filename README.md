@@ -1,19 +1,4 @@
 <h1 align="center">Telegram File Stream Bot</h1>
-<p align="center">
-  <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot">
-    <img src="https://socialify.git.ci/AbirHasan2005/Pyro-FileStreamBot/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ficons%2Fsvg%2F2321%2F2321089.svg&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
-  </a>
-  <p align="center">
-    A Telegram bot to stream files to web
-    <br />
-    <a href="https://telegram.dog/AH_File2Link_Bot"><strong>Demo Bot »</strong></a>
-    <br />
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Report a Bug</a>
-    |
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Request Feature</a>
-  </p>
-</p>
-
 <hr>
 
 <details open="open">
@@ -134,17 +119,7 @@ DATABASE_URL=mongodb_uri
 
 `FQDN` :  A Fully Qualified Domain Name if present. Defaults to `WEB_SERVER_BIND_ADDRESS`
 
-## How to use the bot
-
-:warning: **Before using the  bot, don't forget to add the bot to the `BIN_CHANNEL` as an Admin**
- 
-`/start` : To check if the bot is alive or not.
-
-To get an instant stream link, just forward any media to the bot and boom, its fast af.
-
-## Demo Bot:
-<a href="https://t.me/AH_File2Link_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
-
+## 
 [![Heroku Awake](https://github.com/AbirHasan2005/Pyro-FileStreamBot/actions/workflows/Alive.yml/badge.svg?event=status)](https://github.com/AbirHasan2005/Pyro-FileStreamBot/actions/workflows/Alive.yml)
 
 ## Special Features:
@@ -157,7 +132,9 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 Bot also Supported with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button.
 
 ## Credits
-
+      
+      
+- [Fork from](https://github.com/AsuranJ/asustreambot)
 - [@EverythingSuckz](https://github.com/EverythingSuckz) & [@AbirHasan2005](https://github.com/AbirHasan2005)
 - [eyaadh](https://github.com/eyaadh) for his awesome [Megatron Bot](https://github.com/eyaadh/megadlbot_oss)
 - [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
